@@ -1,6 +1,6 @@
 import React,{ useEffect, useState } from 'react'
 import PP from './Snapchat-1351010918.jpg';
-import "../App.css"; // Import CSS file
+import "../App.css";
 
 export default function Main(props) {
 
