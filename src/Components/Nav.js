@@ -12,9 +12,9 @@ export default function Nav(props) {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="/">Projects</a>
-                            <a className="nav-link" href="/">Skills</a>
-                            <a className="nav-link" href="/">Expirence</a>
+                            <a className="nav-link active" aria-current="page" href="/Projects">Projects</a>
+                            <a className="nav-link" href="/Skills">Skills</a>
+                            <a className="nav-link" href="/Exp">Expirence</a>
                             
                         </div>
                     </div>
