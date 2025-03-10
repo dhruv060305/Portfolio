@@ -14,7 +14,6 @@ import {
 
 function App() {
 
-
   return (
 
     <Router>
@@ -22,10 +21,6 @@ function App() {
       <>
 
         <Nav title="Profile"></Nav>
-
-
-
-
 
         <div className="container">
 
@@ -56,12 +51,7 @@ function App() {
 
           </Routes>
 
-
-          
         </div>
-
-
-
 
       </>
     </Router>

@@ -8,3 +8,26 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+.custom-navbar{
+    background-color: #1B1B1B;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: white;
+}
+
+.custom-navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.custom-navbar a:hover{
+    color: #FFD700;
+}
+
+body{
+    background-color: #080808;
+    color: white;
+}
