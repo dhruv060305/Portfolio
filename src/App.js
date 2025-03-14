@@ -39,7 +39,7 @@ function App() {
               }/>
 
                 <Route 
-                  path='/projects'  
+                  path='/Projects'  
                   element={
                     
                     <Projects />
