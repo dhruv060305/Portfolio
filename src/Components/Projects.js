@@ -65,25 +65,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Case Study 3 */}
-        <div className="row align-items-center mb-4">
-          <div className="col-md-6">
-            <img
-              src="https://via.placeholder.com/500x300"
-              alt="Pharma Work"
-              className="img-fluid rounded shadow"
-            />
-          </div>
-          <div className="col-md-6 text-center text-md-start">
-            <span className="badge bg-success mb-2">Pharma</span>
-            <h4 className="fw-bold">Work name here</h4>
-            <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <button className="btn btn-success">View case study →</button>
-          </div>
-        </div>
+        
       </section>
 
 
