@@ -1,18 +1,28 @@
 import './App.css'
-// import Navbar from './Components/Navbar'
-// import Home from './Components/Home'
 import Nav from './Components/Nav'
+// import Particles from "./Components/Effects/Particles";
+import Home from './Components/Home';
 
 
 function App() {
-  
-  return (
-    
 
+  return (
+
+    
     <>
-      {/* <Navbar /> */}
-      <Nav />
-      {/* <Home /> */}
+
+    <Nav />
+
+
+        
+
+            <Home/>
+
+
+
+
+
+      
     </>
   )
 }

@@ -8,9 +8,9 @@ export default function Nav() {
 
     const [isOpen, setIsOpen] = useState(false);
 
-
     return (
-        <div className='flex justify-center  text-amber-50'>
+
+        <div className='flex justify-center bg-black text-amber-50 sticky top-0 z-50'>
             <div className='h-15 flex justify-between items-center w-auto md:w-4xl bg-neutral-800 rounded-br-md rounded-bl-md p-1'>
                 <h1 className='font-bold ml-6'><span className='text-lime-400'>P</span>ortfolio</h1>
 
