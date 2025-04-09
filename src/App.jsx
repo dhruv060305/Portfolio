@@ -1,28 +1,35 @@
 import './App.css'
 import Nav from './Components/Nav'
-// import Particles from "./Components/Effects/Particles";
 import Home from './Components/Home';
+// import Project from './Components/Project';
+
+
 
 
 function App() {
 
   return (
 
-    
+
     <>
 
-    <Nav />
-
-
-        
-
-            <Home/>
-
-
-
-
+      <Nav />
 
       
+
+
+
+
+      <Home />
+      
+    
+      {/* <Project/> */}
+
+
+
+
+
+
     </>
   )
 }
