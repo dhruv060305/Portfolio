@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -16,15 +17,15 @@ export default function Nav() {
 
                 <div>
                     <div className="hidden md:flex space-x-5 align-center justify-center ml-10 ">
-                        <a href="/" className="hover:underline font-extralight">Home</a>
-                        <a href="/" className="hover:underline font-extralight">Expirence</a>
-                        <a href="/" className="hover:underline font-extralight">Projects</a>
-                        <a href="/" className="hover:underline font-extralight">Contact</a>
+                        <Link to="/" className="hover:underline font-extralight">Home</Link>
+                        <Link to="/projects" className="hover:underline font-extralight">Expirence</Link>
+                        <Link to="/" className="hover:underline font-extralight">Projects</Link>
+                        <Link to="/" className="hover:underline font-extralight">Contact</Link>
                     </div>
                 </div>
 
                 <div className="flex space-x-4 text-2xl ml-6 mr-2 text-amber-50">
-                    <a href="https://github.com/dhruv060305"  className="hover:text-lime-400 transition duration-200" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/dhruv060305" className="hover:text-lime-400 transition duration-200" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a href="https://linkedin.com/in/dhruv-taraviya-103010349" className="hover:text-lime-400 transition duration-200" target="_blank" rel="noopener noreferrer">
@@ -47,10 +48,10 @@ export default function Nav() {
 
             {isOpen && (
                 <div className="md:hidden absolute top-16 flex flex-col right-4 bg-neutral-900 p-4 rounded-md shadow-lg space-y-3">
-                    <a href="/" className="hover:underline hover:text-lime-400 transition duration-100 ">Home</a>
-                    <a href="/" className="hover:underline hover:text-lime-400 transition duration-100 ">Case Studies</a>
-                    <a href="/" className="hover:underline hover:text-lime-400 transition duration-100 ">Testimonials</a>
-                    <a href="/" className="hover:underline hover:text-lime-400 transition duration-100 ">Recent Work</a>
+                    <Link to="/" className="hover:underline font-extralight">Home</Link>
+                    <Link to="/projects" className="hover:underline font-extralight">Expirence</Link>
+                    <Link to="/" className="hover:underline font-extralight">Projects</Link>
+                    <Link to="/" className="hover:underline font-extralight">Contact</Link>
                 </div>
             )}
 
