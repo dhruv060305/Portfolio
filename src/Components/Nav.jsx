@@ -18,8 +18,8 @@ export default function Nav() {
                 <div>
                     <div className="hidden md:flex space-x-5 align-center justify-center ml-10 ">
                         <Link to="/" className="hover:underline font-extralight">Home</Link>
-                        <Link to="/projects" className="hover:underline font-extralight">Expirence</Link>
-                        <Link to="/" className="hover:underline font-extralight">Projects</Link>
+                        <Link to="/projects" className="hover:underline font-extralight">Projects</Link>
+                        <Link to="/experience" className="hover:underline font-extralight">Expirence</Link>
                         <Link to="/" className="hover:underline font-extralight">Contact</Link>
                     </div>
                 </div>
@@ -49,8 +49,8 @@ export default function Nav() {
             {isOpen && (
                 <div className="md:hidden absolute top-16 flex flex-col right-4 bg-neutral-900 p-4 rounded-md shadow-lg space-y-3">
                     <Link to="/" className="hover:underline font-extralight">Home</Link>
-                    <Link to="/projects" className="hover:underline font-extralight">Expirence</Link>
-                    <Link to="/" className="hover:underline font-extralight">Projects</Link>
+                    <Link to="/projects" className="hover:underline font-extralight">Projects</Link>
+                    <Link to="/experience" className="hover:underline font-extralight">Expirence</Link>
                     <Link to="/" className="hover:underline font-extralight">Contact</Link>
                 </div>
             )}
