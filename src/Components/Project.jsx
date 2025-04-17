@@ -13,7 +13,7 @@ const Projectdata = [
   {
     title: "Bank Management System",
     description: "This is my 1st Backend Project. With Chatbot ",
-    video: "src/Assets/Zeta.mp4",
+    video: "src/Assets/BMS.mp4",
     link: "https://github.com/dhruv060305/Bank-Managment-System.git"
   },
   {
