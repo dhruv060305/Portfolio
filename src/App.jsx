@@ -4,7 +4,9 @@ import Home from './Components/Home';
 import Project from './Components/Project';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Exp from './Components/Exp';
+import Contact from './Components/Contact';
 // import Particles from './Components/Effects/Particles';
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
         <Route path='/' element={<Home />}></Route>
         <Route path='/projects' element={<Project/> }></Route>
         <Route path='/experience' element={<Exp/> }></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
 
 

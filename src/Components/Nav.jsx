@@ -20,7 +20,7 @@ export default function Nav() {
                         <Link to="/" className="hover:underline font-extralight">Home</Link>
                         <Link to="/projects" className="hover:underline font-extralight">Projects</Link>
                         <Link to="/experience" className="hover:underline font-extralight">Expirence</Link>
-                        <Link to="/" className="hover:underline font-extralight">Contact</Link>
+                        <Link to="/contact" className="hover:underline font-extralight">Contact</Link>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ export default function Nav() {
                     <Link to="/" className="hover:underline font-extralight">Home</Link>
                     <Link to="/projects" className="hover:underline font-extralight">Projects</Link>
                     <Link to="/experience" className="hover:underline font-extralight">Expirence</Link>
-                    <Link to="/" className="hover:underline font-extralight">Contact</Link>
+                    <Link to="/contact" className="hover:underline font-extralight">Contact</Link>
                 </div>
             )}
 
