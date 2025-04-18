@@ -14,10 +14,15 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const [navVisible, setNavVisible] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
+
+      setTimeout(() => {
+        setNavVisible(true);
+      }, 300);
     }, 2000); // 2 seconds delay
 
     return () => clearTimeout(timer); // Cleanup the timer on component unmount
@@ -43,7 +48,13 @@ function App() {
 
     <Router>
 
-      <Nav />
+<div
+        className={`transition-all duration-700 transform ${
+          navVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
+        }`}
+      >
+        <Nav />
+      </div>
 
 
       <Routes>
