@@ -5,3 +5,31 @@ body{
     z-index: 1;
     font-family: JetBrains Mono;
 }
+
+
+
+@layer utilities {
+  .bg-neon-green {
+    background: #39ff14; /* neon green */
+  }
+  .border-neon-green {
+    border-color: #39ff14;
+  }
+  .shadow-neon {
+    box-shadow: 0 0 15px #39ff14, 0 0 30px #39ff14;
+  }
+  .animate-fill {
+    animation: fillBox 2s ease-in-out forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  @keyframes fillBox {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+}
