@@ -7,10 +7,10 @@ import PP from '../Assets/PP.jpg'
 import { motion } from 'framer-motion';
 
 const timeline = [
-    { year: "2022", text: "Learned HTML/CSS/JS" },
-    { year: "2023", text: "Built React apps, explored Node.js" },
-    { year: "2024", text: "Jumped into Three.js and Web3" },
-    { year: "2025", text: "Building full-stack 3D + blockchain experiences" },
+    { year: "2022", text: " Started Learning HTML/CSS/JS" },
+    { year: "2023", text: "Started Built React apps, explored React" },
+    { year: "2024", text: "Started Building Front-End Sites" },
+    { year: "2025", text: "Explored Node.js " },
 ];
 
 
@@ -71,7 +71,7 @@ export default function Home() {
                         <div className='h-auto w-90 mt-5 mb-5 flex justify-start items-center '>
 
                             <DecryptedText
-                                text="🛠️ Skilled in React, JavaScript, and Three.js — currently building cool stuff in Web3 and 3D gaming.
+                                text="🛠️ Skilled in React, JavaScript, and Tailwind — currently building cool stuff in Front-end and Exploring Unity-6.
 🎯 Always up for turning ideas into clean, functional code."
                                 animateOn="view"
                                 speed="10"
