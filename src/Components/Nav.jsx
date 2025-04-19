@@ -44,7 +44,7 @@ export default function Nav() {
                     {isOpen ? 'Close' : 'Menu'}
                 </button>
 
-            </div>
+        </div>  
 
             {isOpen && (
                 <div className="md:hidden absolute top-16 flex flex-col right-4 bg-neutral-900 p-4 rounded-md shadow-lg space-y-3">

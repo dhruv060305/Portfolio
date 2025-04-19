@@ -9,7 +9,7 @@ export default function Contact() {
 
 
     return (
-        <div className="relative w-full min-h-screen bg-black text-white overflow-x-hidden">
+        <div className="relative w-full min-h-screen bg-black pt-15 text-white overflow-x-hidden">
             {/* Particle canvas behind everything */}
             <div className="absolute inset-0 pointer-events-none z-0">
                 <Particles
