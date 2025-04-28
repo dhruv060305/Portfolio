@@ -3,7 +3,8 @@ import Particles from './Effects/Particles';
 import DecryptedText from './Effects/DecryptedText';
 import TiltedCard from './Effects/TiltedCard';
 import RotatingText from './Effects/RotatingText'
-import PP from '../Assets/PP.jpg'
+// import PP from '../Assets/PP.jpg'
+import PP from '../Assets/New.jpg'
 import { motion } from 'framer-motion';
 
 const timeline = [
@@ -16,7 +17,7 @@ const timeline = [
 
 export default function Home() {
     return (
-        <div className="relative w-full min-h-screen bg-black pt-10 text-white overflow-x-hidden">
+        <div className="relative w-full min-h-screen bg-black pt-12 text-white overflow-x-hidden">
 
             {/* Particle canvas behind everything */}
             <div className="absolute inset-0 pointer-events-none z-0">
@@ -90,7 +91,7 @@ export default function Home() {
                 </div>
 
 
-                <div className=' z-10 mt-20 w-auto h-full flex justify-center items-center '>
+                <div className=' sm:h-100 sm:w-100 z-10 mt-20 w-auto h-full flex justify-center items-center '>
 
                     <TiltedCard
                         imageSrc={PP}

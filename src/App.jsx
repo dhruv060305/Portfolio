@@ -20,7 +20,7 @@ function App() {
       setTimeout(() => {
         setNavVisible(true);
       }, 300);
-    }, 2500); // total loading time
+    }, 2000); // total loading time
 
     return () => clearTimeout(timer);
   }, []);
