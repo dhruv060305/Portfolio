@@ -91,7 +91,7 @@ export default function Main() {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/dhruv-taraviya-103010349"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
